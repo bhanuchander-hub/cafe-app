@@ -4,8 +4,11 @@ export default function Footer() {
       <div className="container py-4">
         <div className="row align-items-center g-3">
           <div className="col-12 col-md-4 d-flex align-items-center gap-2">
-            <span className="d-inline-grid place-items-center bg-warning text-dark fw-bold" style={{width:32,height:32,borderRadius:8}}>CI</span>
-            <span className="fw-semibold">Cafe Italian</span>
+          <img 
+  src="https://i.pinimg.com/736x/ad/d2/bb/add2bbc8671e8158d0442b99c8153276.jpg" 
+  alt="Cafe Italian Logo"
+  style={{width:32,height:32,borderRadius:8}}
+/>            <span className="fw-semibold">Cafe Italian</span>
           </div>
           <div className="col-12 col-md-4">
             <div className="d-flex gap-3">
@@ -16,12 +19,11 @@ export default function Footer() {
           </div>
           <div className="col-12 col-md-4 text-secondary">
             <h2 className="section-title">Contact</h2>
-            <div>Phone: +1 (555) 012-3456</div>
-            <div>Location: 123 Via Roma, Downtown</div>
+            <div>Phone: +(91) 8937273921 </div>
+            <div>Location: 2-119 Mangalagiri, Amaravathi</div>
             <div>Hours: Mon–Sun 7:00–22:00</div>
           </div>
         </div>
-        <div className="text-secondary mt-3">© {new Date().getFullYear()} Cafe Italian</div>
       </div>
     </footer>
   );

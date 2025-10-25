@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
+
+
+
 export default function Header(){
   const [scrolled, setScrolled] = useState(false);
   useEffect(()=>{
@@ -14,8 +17,12 @@ export default function Header(){
     <nav className={`navbar navbar-expand-lg navbar-dark ${scrolled? 'shadow-sm':''}`} style={{background:'#0f0f0f', position:'sticky', top:0, zIndex:20}}>
       <div className="container">
         <Link className="navbar-brand d-flex align-items-center gap-2" to="/">
-          <span className="d-inline-grid place-items-center bg-warning text-dark fw-bold" style={{width:32,height:32,borderRadius:8}}>CI</span>
-          <span className="fw-semibold">Cafe Italian</span>
+        <img 
+              src="https://i.pinimg.com/736x/ad/d2/bb/add2bbc8671e8158d0442b99c8153276.jpg" 
+              alt="Cafe Italian Logo" 
+              style={{width:32,height:32,borderRadius:8}}
+            />         
+             <span className="fw-semibold">Cafe Italian</span>
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

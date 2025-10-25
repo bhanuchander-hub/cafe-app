@@ -9,18 +9,21 @@ const Card = styled.figure`
 
 export default function Gallery() {
   const sources = [
-    'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=800&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=800&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=800&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1464979685496-67c9e472a79b?q=80&w=800&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=800&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=800&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=800&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=800&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1498654200943-1088dd4438ae?q=80&w=800&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1447078806655-40579c2520d6?q=80&w=800&auto=format&fit=crop'
+    '/images/0e894550d8da223ca19d997f7c57c242.jpg',
+    '/images/1ed89f8ed276926c901f4defe887a1f0.jpg',
+    '/images/2f5f49d6d6171d05c3d8329a62d8745e.jpg',
+    '/images/4afcd2d60e252b15fd027ae60c0388c3.jpg',
+    '/images/4c28e2420bf38c50120dba0cbaf42e8d.jpg',
+    '/images/4cfd447cc662cccac2348b5838cef536.jpg',
+    '/images/5cfd93bf09153e97707fff073ccd309c.jpg',
+    '/images/8d75b5eec768f8063b4be2858728f1c4.jpg',
+    '/images/206c16f3c0026aa8ddd68e980ab6401e.jpg',
+    '/images/243b8f4b3165c35a79d7b08b01318c79.jpg',
+    '/images/52799a0b22e277369d80f08bdd663745.jpg',
+    '/images/bee0dbf653b82e241b3369e7bc2c0d62.jpg',
+    '/images/e1ecbd57fe3a2beb805281906bff04d3.jpg',
+    '/images/f0655f2737da76be9b4ac435c65e3d9b.jpg',
+    '/images/f4775347f46961b2ccf9a86ba55468d5.jpg'
   ];
   const photos = sources;
   return (
